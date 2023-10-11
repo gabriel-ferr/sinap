@@ -5,20 +5,7 @@
 
     <ContentPage.MenuBarItems>
         <MenuBarItem Text="Projeto">
-            <MenuFlyoutItem Text="Novo Projeto"/>
-            <MenuFlyoutItem Text="Abrir Projeto"/>
-            <MenuFlyoutSeparator/>
-            <MenuFlyoutItem Text="Propriedades" x:Name="projectProperties" IsEnabled="False"/>
-        </MenuBarItem>
-        <MenuBarItem Text="Rede">
-            <MenuFlyoutItem Text="Carregar Rede" IsEnabled="False"/>
-            <MenuFlyoutSeparator/>
-            <MenuFlyoutItem Text="Novo Modelo" IsEnabled="False"/>
-            <MenuFlyoutItem Text="Carregar Modelo" IsEnabled="False"/>
-            <MenuFlyoutItem Text="Salvar Modelo" IsEnabled="False"/>
-            <MenuFlyoutItem Text="Salvar Modelo como..." IsEnabled="False"/>
-            <MenuFlyoutSeparator/>
-            <MenuFlyoutItem Text="Preferências" IsEnabled="False"/>
+            
         </MenuBarItem>
     </ContentPage.MenuBarItems>
 </ContentPage>

@@ -168,6 +168,11 @@ public static class Program
                     if (columns[c].ToLower().Contains("muito fofo")) value = 10;
                     else if (columns[c].ToLower().Contains("repulsivo")) value = 1;
                     else value = Convert.ToInt32(columns[c]);
+
+                    if (value > 6) value = 1;
+                    else if (value < 5) value = -1;
+                    else value = 0;
+
                     qualitatives.Add(new Qualitative() { ID = id, YearsOld = yearsOld, Task = c - 2, Value = value });
                 }
             }

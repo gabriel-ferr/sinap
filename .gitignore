@@ -4,6 +4,7 @@
 #  CSV and JSON files.
 *.json
 *.csv
+*.png
 
 #  Temp folders.
 [Tt]emp/
